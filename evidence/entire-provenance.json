@@ -1,0 +1,51 @@
+{
+  "label": "Sanitized genuine native Entire Graph excerpt",
+  "timing": "Retrospective analysis run now; no claim of earlier use",
+  "analysis_observed_at_utc": "2026-10-12T10:22:50.902231Z",
+  "provider": "entire-graph",
+  "release": "v0.4.1-nightly.202609030616.ddcebd05",
+  "mode": "working tree, fast profile, uncached",
+  "scope": [
+    "approvalbridge/src/approvalbridge/contracts.py",
+    "approvalbridge/src/approvalbridge/domain.py",
+    "approvalbridge/src/approvalbridge/runner.py",
+    "approvalbridge/src/approvalbridge/store.py",
+    "approvalbridge/src/approvalbridge/workflow.py"
+  ],
+  "native_source_files": 5,
+  "native_symbol_records": 78,
+  "native_relation_records": 200,
+  "retained_symbol_records": 23,
+  "retained_relation_records": 41,
+  "retained_types": [
+    "CALLS",
+    "DEFINES",
+    "CONTAINS"
+  ],
+  "sanitization": "Removed envelopes, personal paths, identifiers, signatures, literals, snippets, evidence details, external records and heuristic tool aliases; relationships retained only when present in native output",
+  "source_sha256": {
+    "approvalbridge/src/approvalbridge/contracts.py": "b15f8b3b7b592151cf35b6c3d2af261107b0a07fe810d344d2b03e00f49c2d35",
+    "approvalbridge/src/approvalbridge/domain.py": "f95d93f8bbfec7b85fca06fdb853b909a7e3af39a733dfc15fa58ffcb58bdacd",
+    "approvalbridge/src/approvalbridge/runner.py": "daead1d976ac17a553376bb0acdcdfe377cae7502a0070dc93989ba0b95c7d90",
+    "approvalbridge/src/approvalbridge/store.py": "5b1a3fabe1dafedb431b1cb44898eff378facf4cce9696e143db0861dadf1f06",
+    "approvalbridge/src/approvalbridge/workflow.py": "d18a2ed4912fa3971da2f5e343b6ccdf12a007530fe8d983913751456e3257a4"
+  },
+  "session_or_checkpoint_analysis": false,
+  "agent_activation": false,
+  "current_release_sha256": {
+    "approvalbridge/src/approvalbridge/contracts.py": "b15f8b3b7b592151cf35b6c3d2af261107b0a07fe810d344d2b03e00f49c2d35",
+    "approvalbridge/src/approvalbridge/domain.py": "f95d93f8bbfec7b85fca06fdb853b909a7e3af39a733dfc15fa58ffcb58bdacd",
+    "approvalbridge/src/approvalbridge/runner.py": "daead1d976ac17a553376bb0acdcdfe377cae7502a0070dc93989ba0b95c7d90",
+    "approvalbridge/src/approvalbridge/store.py": "7b769130120a43f9a0dca95974c9d125e4fa170e70ad8cd0aba3b61f127d8373",
+    "approvalbridge/src/approvalbridge/workflow.py": "d18a2ed4912fa3971da2f5e343b6ccdf12a007530fe8d983913751456e3257a4"
+  },
+  "source_hash_note": "The native analysis predates neutral actor substitutions in the earlier sanitized release. Recorded analysis hashes are preserved; current release hashes are supplied separately. Runtime source is unchanged in this cleanup.",
+  "tool_verification": {
+    "source": "https://github.com/entireio/entire-graph",
+    "tag": "v0.4.1-nightly.202609030616.ddcebd05",
+    "archive_sha256": "fe092d670d527d9dc711d13e1a6ec14844afdf3ca49c48e77f68cdb0b2273c53",
+    "binary_sha256": "266cb1607b87af177e1327a48dc29635336ea334086bded2ed9cc4e393c4a6e0",
+    "binary_fingerprint_matches_installed_manifest": true,
+    "pinned": true
+  }
+}

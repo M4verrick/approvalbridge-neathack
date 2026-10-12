@@ -1,0 +1,49 @@
+{
+  "id": "D1-replies",
+  "max_rounds": 2,
+  "rules": [
+    {
+      "id": "r1",
+      "claims": [
+        "B"
+      ],
+      "intent": "approval",
+      "evidence": [
+        {
+          "id": "approval-b",
+          "text": "I approve USD 80.00 for claim B against the original deduction if signed-promo.",
+          "sender": "merchant",
+          "identity": "fictional_verified",
+          "kind": "email",
+          "effective_at": "2026-10-03T00:00:00+00:00",
+          "available": true,
+          "restricted": false,
+          "origin": "Synthetic local fixture"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "claims": [
+        "B"
+      ],
+      "intent": "condition",
+      "requires_sources": [
+        "approval-b"
+      ],
+      "evidence": [
+        {
+          "id": "condition-b",
+          "text": "Condition signed-promo is satisfied for claim B.",
+          "sender": "merchant",
+          "identity": "fictional_verified",
+          "kind": "email",
+          "effective_at": "2026-10-04T00:00:00+00:00",
+          "available": true,
+          "restricted": false,
+          "origin": "Synthetic local fixture"
+        }
+      ]
+    }
+  ]
+}

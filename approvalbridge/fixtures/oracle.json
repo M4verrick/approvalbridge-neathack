@@ -1,0 +1,154 @@
+{
+  "D1": {
+    "A": {
+      "approval_minor": 9000,
+      "conditional_minor": null,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": 12000,
+      "holds": []
+    },
+    "B": {
+      "approval_minor": null,
+      "conditional_minor": null,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": 8000,
+      "holds": []
+    },
+    "C": {
+      "approval_minor": null,
+      "conditional_minor": null,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": 5000,
+      "holds": [
+        "hold-c"
+      ]
+    }
+  },
+  "D2": {
+    "A": {
+      "approval_minor": null,
+      "conditional_minor": null,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": 12000,
+      "holds": []
+    },
+    "B": {
+      "approval_minor": null,
+      "conditional_minor": null,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": 8000,
+      "holds": []
+    },
+    "C": {
+      "approval_minor": null,
+      "conditional_minor": 5000,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": 5000,
+      "holds": [
+        "hold-c"
+      ]
+    }
+  },
+  "D3": {
+    "A": {
+      "approval_minor": 9000,
+      "conditional_minor": null,
+      "settlement_minor": 2000,
+      "remaining_recorded_minor": 10000,
+      "holds": []
+    },
+    "B": {
+      "approval_minor": null,
+      "conditional_minor": 8000,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": null,
+      "holds": []
+    },
+    "C": {
+      "approval_minor": null,
+      "conditional_minor": null,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": null,
+      "holds": [
+        "hold-c"
+      ]
+    }
+  },
+  "H1": {
+    "A": {
+      "approval_minor": 9000,
+      "conditional_minor": null,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": 12000,
+      "holds": [
+        "hold-a"
+      ]
+    },
+    "B": {
+      "approval_minor": null,
+      "conditional_minor": 8000,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": 8000,
+      "holds": []
+    },
+    "C": {
+      "approval_minor": null,
+      "conditional_minor": null,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": 5000,
+      "holds": [
+        "hold-c"
+      ]
+    }
+  },
+  "H2": {
+    "A": {
+      "approval_minor": 7000,
+      "conditional_minor": null,
+      "settlement_minor": 1500,
+      "remaining_recorded_minor": 10500,
+      "holds": []
+    },
+    "B": {
+      "approval_minor": 8000,
+      "conditional_minor": null,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": 8000,
+      "holds": []
+    },
+    "C": {
+      "approval_minor": null,
+      "conditional_minor": null,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": 5000,
+      "holds": [
+        "hold-c"
+      ]
+    }
+  },
+  "H3": {
+    "A": {
+      "approval_minor": null,
+      "conditional_minor": null,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": 12000,
+      "holds": []
+    },
+    "B": {
+      "approval_minor": null,
+      "conditional_minor": null,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": 8000,
+      "holds": []
+    },
+    "C": {
+      "approval_minor": null,
+      "conditional_minor": null,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": 5000,
+      "holds": [
+        "hold-c"
+      ]
+    }
+  }
+}

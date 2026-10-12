@@ -1,0 +1,26 @@
+{
+  "id": "D3-replies",
+  "max_rounds": 2,
+  "rules": [
+    {
+      "id": "r1",
+      "claims": [
+        "B"
+      ],
+      "intent": "condition",
+      "evidence": [
+        {
+          "id": "condition-b",
+          "text": "Condition signed-promo is satisfied for claim B.",
+          "sender": "merchant",
+          "identity": "fictional_verified",
+          "kind": "email",
+          "effective_at": "2026-10-04T00:00:00+00:00",
+          "available": true,
+          "restricted": false,
+          "origin": "Synthetic local fixture"
+        }
+      ]
+    }
+  ]
+}

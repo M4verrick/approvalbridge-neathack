@@ -1,0 +1,61 @@
+{
+  "expected_rows": {
+    "A": {
+      "approval_minor": 9000,
+      "conditional_minor": null,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": 12000,
+      "holds": []
+    },
+    "B": {
+      "approval_minor": 8000,
+      "conditional_minor": null,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": 8000,
+      "holds": []
+    },
+    "C": {
+      "approval_minor": null,
+      "conditional_minor": null,
+      "settlement_minor": 0,
+      "remaining_recorded_minor": 5000,
+      "holds": [
+        "hold-c"
+      ]
+    }
+  },
+  "necessary_requests": [
+    {
+      "claims": [
+        "B"
+      ],
+      "proposition": "claim-specific approval scope and amount",
+      "owner": "merchant_or_AR_analyst",
+      "draft": "Please provide claim-specific approval scope and amount."
+    },
+    {
+      "claims": [
+        "C"
+      ],
+      "proposition": "claim-specific approval scope and amount",
+      "owner": "merchant_or_AR_analyst",
+      "draft": "Please provide claim-specific approval scope and amount."
+    },
+    {
+      "claims": [
+        "C"
+      ],
+      "proposition": "authorized release or clarification of the hold",
+      "owner": "merchant_or_AR_analyst",
+      "draft": "Please provide authorized release or clarification of the hold."
+    },
+    {
+      "claims": [
+        "B"
+      ],
+      "proposition": "evidence satisfying the approval condition",
+      "owner": "merchant_or_AR_analyst",
+      "draft": "Please provide evidence satisfying the approval condition."
+    }
+  ]
+}

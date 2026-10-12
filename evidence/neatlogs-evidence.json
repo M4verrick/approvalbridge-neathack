@@ -1,0 +1,15 @@
+{
+  "label": "Sanitized local record of historical live tool recovery",
+  "failed_read_requested_documents": 6,
+  "document_limit": 4,
+  "next_read_requested_documents": 4,
+  "next_read_returned_documents": 4,
+  "same_historical_live_run": true,
+  "live_http_acknowledgement_exists": true,
+  "neatlogs_project_readback_verified": false,
+  "live_improvement_measured": false,
+  "disclosed_payload_fields": false,
+  "source_session_or_account_identifiers_exported": false,
+  "neatlogs_saved_write_acknowledgements_exist": true,
+  "evidence_limit": "Recorded write acknowledgements and tool recovery; not a raw trace export, independently verified project readback or controlled model-quality comparison."
+}

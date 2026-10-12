@@ -1,0 +1,70 @@
+{
+  "D1": {
+    "A": [],
+    "B": [
+      "claim-specific approval scope and amount"
+    ],
+    "C": [
+      "claim-specific approval scope and amount",
+      "authorized release or clarification of the hold"
+    ]
+  },
+  "D2": {
+    "A": [
+      "allocation of shared approval cap"
+    ],
+    "B": [
+      "allocation of shared approval cap"
+    ],
+    "C": [
+      "evidence satisfying the approval condition",
+      "authorized release or clarification of the hold"
+    ]
+  },
+  "D3": {
+    "A": [],
+    "B": [
+      "evidence satisfying the approval condition",
+      "settlement meaning and claim allocation"
+    ],
+    "C": [
+      "claim-specific approval scope and amount",
+      "settlement meaning and claim allocation",
+      "authorized release or clarification of the hold"
+    ]
+  },
+  "H1": {
+    "A": [
+      "authorized release or clarification of the hold",
+      "authority unresolved"
+    ],
+    "B": [
+      "evidence satisfying the approval condition"
+    ],
+    "C": [
+      "claim-specific approval scope and amount",
+      "authorized release or clarification of the hold"
+    ]
+  },
+  "H2": {
+    "A": [],
+    "B": [],
+    "C": [
+      "claim-specific approval scope and amount",
+      "authorized release or clarification of the hold"
+    ]
+  },
+  "H3": {
+    "A": [
+      "claim-specific approval scope and amount"
+    ],
+    "B": [
+      "claim-specific approval scope and amount"
+    ],
+    "C": [
+      "claim-specific approval scope and amount",
+      "authorized release or clarification of the hold",
+      "authority unresolved"
+    ]
+  }
+}

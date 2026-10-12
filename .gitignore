@@ -1,0 +1,23 @@
+.DS_Store
+.venv/
+.local/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.env.*
+!.env.example
+*.db
+*.db-shm
+*.db-wal
+build/
+dist/
+*.whl
+.pytest_cache/
+.claude/
+.entire/
+approvalbridge/grant*.json
+!approvalbridge/grant.template.json
+
+# Private local demo media; not part of the public source release.
+/portfolio/

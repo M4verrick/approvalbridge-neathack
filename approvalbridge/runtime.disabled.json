@@ -1,0 +1,9 @@
+{
+  "allow_live": false,
+  "grant": null,
+  "allowed_routes": [],
+  "trace_region": null,
+  "trace_project": null,
+  "trace_key_env": "APPROVALBRIDGE_NEATLOGS_WRITE_KEY",
+  "mail": []
+}

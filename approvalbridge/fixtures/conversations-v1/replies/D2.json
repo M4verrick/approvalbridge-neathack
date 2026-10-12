@@ -1,0 +1,22 @@
+{
+  "id": "D2-replies",
+  "max_rounds": 2,
+  "rules": [
+    {
+      "id": "r1",
+      "claims": [
+        "C"
+      ],
+      "intent": "condition",
+      "evidence": [
+        {
+          "id": "condition-c",
+          "text": "Condition proof is satisfied for claim C.",
+          "sender": "merchant",
+          "identity": "fictional_verified",
+          "effective_at": "2026-10-05T00:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

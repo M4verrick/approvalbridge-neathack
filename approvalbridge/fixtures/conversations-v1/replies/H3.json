@@ -1,0 +1,22 @@
+{
+  "id": "H3-replies",
+  "max_rounds": 2,
+  "rules": [
+    {
+      "id": "r1",
+      "claims": [
+        "C"
+      ],
+      "intent": "approval",
+      "evidence": [
+        {
+          "id": "reply-c",
+          "text": "I approve USD 50.00 for claim C against the original deduction.",
+          "sender": "outsider",
+          "identity": "unknown",
+          "effective_at": "2026-10-05T00:00:00+00:00"
+        }
+      ]
+    }
+  ]
+}

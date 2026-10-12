@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "conversations-v1",
+  "seed": 17,
+  "repetitions": 1,
+  "variants": [
+    "A",
+    "B",
+    "C"
+  ],
+  "max_model_attempts": 96,
+  "max_reserved_micro_usd": 0,
+  "scenarios": [
+    {
+      "id": "D1",
+      "packet_file": "inputs/D1.json",
+      "replies_file": "replies/D1.json",
+      "oracle_file": "oracles/D1.json"
+    },
+    {
+      "id": "D2",
+      "packet_file": "inputs/D2.json",
+      "replies_file": "replies/D2.json",
+      "oracle_file": "oracles/D2.json"
+    },
+    {
+      "id": "D3",
+      "packet_file": "inputs/D3.json",
+      "replies_file": "replies/D3.json",
+      "oracle_file": "oracles/D3.json"
+    },
+    {
+      "id": "H1",
+      "packet_file": "inputs/H1.json",
+      "replies_file": "replies/H1.json",
+      "oracle_file": "oracles/H1.json"
+    },
+    {
+      "id": "H2",
+      "packet_file": "inputs/H2.json",
+      "replies_file": "replies/H2.json",
+      "oracle_file": "oracles/H2.json"
+    },
+    {
+      "id": "H3",
+      "packet_file": "inputs/H3.json",
+      "replies_file": "replies/H3.json",
+      "oracle_file": "oracles/H3.json"
+    }
+  ],
+  "file_hashes": {
+    "inputs/D1.json": "117024e9ec6c08013102850060afb5c4b9df83735200435258bda32e5da81e5a",
+    "replies/D1.json": "80be91320a68a2b043429afdddd77c0dc3283c30ab92bd9b005601e3dbf9250a",
+    "oracles/D1.json": "bad2d4e3e01606a53ae1783ec91c3e72870ec1ce742b1055ee644c988d7767f8",
+    "inputs/D2.json": "9f81375613bb13f9715c4142de0f4ac878f61a0ba0869b931d71853403fa274f",
+    "replies/D2.json": "0c48b934bfa7486d32c12096e699968b6f4e2831ff47bd27ecdb76030b69fb1c",
+    "oracles/D2.json": "1bca30b430c56c804aa1790efa01cd0e22bfe7c1cd1164c345dc212421982339",
+    "inputs/D3.json": "c443bbe96d98f30b8babe35eaf386e34fd8a3d919a12f754a6bbb20ca3eeb2fc",
+    "replies/D3.json": "ec72ed7e2918360797161f53750b8621848f174014f0018f3a12e719b55bde1d",
+    "oracles/D3.json": "e3a1e51a60a6826a42c23d1405af7c31a31eede9d0acf47c10933c33b77b1557",
+    "inputs/H1.json": "6adb9d2ff457f974300addd972e9bd0fd2d6efa8a064fb34550e07cdcdb2b3d6",
+    "replies/H1.json": "32509d316ffae5020fd463cd787e2efa199083bc3040266910bc479f0a2261f3",
+    "oracles/H1.json": "5790399d6fabdf4a6e4553e6498464e830e7f69bb3bbe020bbbc965e98df28a7",
+    "inputs/H2.json": "11cbb8fb59c7abc13e19a3c19c6f3edf2a923b2180d02bb8d504f22d00afeceb",
+    "replies/H2.json": "371720ae3d2a9f7a3da346a90e594fa234e2979eb69665a5c99b6c14aabdba96",
+    "oracles/H2.json": "085ca557be540a80a40ed6d90c5fe72a4d622f6b92c5d58693584a460cc0f634",
+    "inputs/H3.json": "100b83dd548a337e9ab0074bf1f1c77889a5bb51e03226a4dcda502ce4630cf6",
+    "replies/H3.json": "509e0f4f76655fe173cd0b50614e01c0ab77d540e8d32a9ed9e3e356477f22e4",
+    "oracles/H3.json": "abc98e5b780a92dc33502f7fafd52c6f71de13342d7c403a6b31d064b9d2b1e8"
+  }
+}
